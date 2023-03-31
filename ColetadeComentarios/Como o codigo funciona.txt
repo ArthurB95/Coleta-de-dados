@@ -1,0 +1,6 @@
+O script faz o clone do repositório para um diretório local e, em seguida, lista todos os arquivos com as extensões
+JavaScript, PHP, Gherkin, Vue, Python e Shell. Em seguida, para cada arquivo, o script busca pelos comentários em cada linha,
+utilizando expressões regulares específicas para cada linguagem.
+
+Os resultados são salvos em um arquivo CSV com o nome do arquivo, o número da linha e o comentário encontrado. 
+É importante destacar que o script não faz distinção entre comentários de código e comentários no formato de documentação.
